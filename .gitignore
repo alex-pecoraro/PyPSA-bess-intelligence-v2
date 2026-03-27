@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+venv/
+.venv/
+*.egg
+
+# Streamlit
+.streamlit/
+
+# Data backups and intermediates (keep main data files)
+data/*_backup.parquet
+data/caiso_lmp_2024.parquet
+
+# Root-level intermediate files
+bus_data_v2_backup.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
